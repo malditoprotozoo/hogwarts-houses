@@ -5,6 +5,7 @@
 
 body {
 	background-color: black;
+	cursor: url('../assets/images/wand-cursor.png'), auto;
 }
 
 #container {
@@ -37,14 +38,29 @@ body {
 	color: #DCE7DB;
 }
 
+#slytherin .overlay {
+	background-color: #DCE7DB;
+	color: #1A472A;
+}
+
 #hufflepuff {
 	background-color: #F3B72E;
 	color: #2F2A29;
 }
 
+#hufflepuff .overlay {
+	background-color: #2F2A29;
+	color: #F3B72E;
+}
+
 #ravenclaw {
 	background-color: #00102D;
-	color: #C9CABD;
+	color: #946b2d;
+}
+
+#ravenclaw .overlay {
+	background-color: #946b2d;
+	color: #00102D;
 }
 
 .big-letter {
@@ -56,9 +72,13 @@ body {
 .overlay {
 	width: 400px;
 	height: 400px;
+	display: table;
 	position: absolute;
 	margin-top: -400px;
 	opacity: 0;
+	font-family: "Playfair Display", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
 }
 
 .overlay:hover {
@@ -66,6 +86,10 @@ body {
 }
 
 .info {
+	padding-left: 15px;
+	padding-right: 15px;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 
