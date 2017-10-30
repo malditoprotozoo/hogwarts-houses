@@ -1,0 +1,61 @@
+@font-face {
+	font-family: HARRYP__;
+	src: url('../assets/fonts/harry_p/HARRYP__.TTF');
+}
+
+body {
+	background-color: black;
+}
+
+#container {
+	width: 815px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.house {
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	border: 2px solid white;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#gryffindor {
+	background-color: #C01A1A;
+	color: #F2A426;
+}
+
+#slytherin {
+	background-color: #1A472A;
+	color: #DCE7DB;
+}
+
+#hufflepuff {
+	background-color: #F3B72E;
+	color: #2F2A29;
+}
+
+#ravenclaw {
+	background-color: #00102D;
+	color: #C9CABD;
+}
+
+.big-letter {
+	font-family: HARRYP__, serif;
+	font-size: 250px;
+	line-height: 400px;
+}
+
+.overlay {
+	width: 400px;
+	height: 400px;
+	opacity: 0;
+}
+
+.info {
+	margin-bottom: 300px;
+}
+
+
