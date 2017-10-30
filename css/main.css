@@ -27,6 +27,11 @@ body {
 	color: #F2A426;
 }
 
+#gryffindor .overlay {
+	background-color: #F2A426;
+	color: #C01A1A;
+}
+
 #slytherin {
 	background-color: #1A472A;
 	color: #DCE7DB;
@@ -51,11 +56,16 @@ body {
 .overlay {
 	width: 400px;
 	height: 400px;
+	position: absolute;
+	margin-top: -400px;
 	opacity: 0;
 }
 
+.overlay:hover {
+	opacity: 1;
+}
+
 .info {
-	margin-bottom: 300px;
 }
 
 
